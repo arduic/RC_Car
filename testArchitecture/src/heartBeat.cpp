@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+//============================================================================
+// Name        : heartBeat.cpp
+// Author      : Patrick
+// Version     : 0.2
+// Date Created: Sep 24, 2013
+// Date Edited :
+// Copyright   : Your copyright notice
+// Description : This controls the heart of the RC car to comunicate with the wireless controller. It can both kill the car from a signal and a lack of a signal.
+//============================================================================
+//Note I forgot to put this ^^^ in the first code post but I didn't change anything other than this.
+
+=======
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 #include "heartBeat.hpp"
 #include <math.h>
 #include <stdio.h>

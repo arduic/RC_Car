@@ -25,15 +25,26 @@
 							<tool command="arm-linux-gnueabi-g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.492862258" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
 								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1054403332" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.exe.debug.option.debugging.level.936631283" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+<<<<<<< HEAD
+								<option id="gnu.cpp.compiler.option.include.paths.1020212064" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/include/c++/4.6.3"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/opencv"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/opencv2"/>
+=======
 								<option id="gnu.cpp.compiler.option.include.paths.1020212064" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/include/c++/4.6.3"/>
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.731528096" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool command="arm-linux-gnueabi-gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1577322634" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.372658979" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.exe.debug.option.debugging.level.756424624" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+<<<<<<< HEAD
+								<option id="gnu.c.compiler.option.include.paths.2029058624" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+=======
 								<option id="gnu.c.compiler.option.include.paths.2029058624" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1632395918" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
@@ -41,10 +52,30 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1417434951" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug"/>
 							<tool command="arm-linux-gnueabi-g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1518325051" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
 								<option id="gnu.cpp.link.option.libs.397006658" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<<<<<<< HEAD
+									<listOptionValue builtIn="false" value="rt"/>
+									<listOptionValue builtIn="false" value="pthread"/>
+									<listOptionValue builtIn="false" value="opencv_video"/>
+									<listOptionValue builtIn="false" value="opencv_features2d "/>
+									<listOptionValue builtIn="false" value="opencv_calib3d"/>
+									<listOptionValue builtIn="false" value="opencv_objdetect"/>
+									<listOptionValue builtIn="false" value="opencv_contrib"/>
+									<listOptionValue builtIn="false" value="opencv_legacy"/>
+									<listOptionValue builtIn="false" value="opencv_flann"/>
+									<listOptionValue builtIn="false" value="opencv_core"/>
+									<listOptionValue builtIn="false" value="opencv_imgproc"/>
+									<listOptionValue builtIn="false" value="opencv_highgui"/>
+									<listOptionValue builtIn="false" value="opencv_ml"/>
+								</option>
+								<option id="gnu.cpp.link.option.paths.845861496" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/lib"/>
+									<listOptionValue builtIn="false" value="/usr/local/lib/lib"/>
+=======
 									<listOptionValue builtIn="false" value="pthread"/>
 								</option>
 								<option id="gnu.cpp.link.option.paths.845861496" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/lib"/>
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1477809771" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -85,7 +116,11 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1992619560" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
 								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.944550129" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.exe.release.option.debugging.level.702256404" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+<<<<<<< HEAD
+								<option id="gnu.cpp.compiler.option.include.paths.851423166" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+=======
 								<option id="gnu.cpp.compiler.option.include.paths.851423166" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/include/c++/4.6.3"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.694663146" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -93,14 +128,22 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.958378516" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.331903452" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.exe.release.option.debugging.level.1220172115" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+<<<<<<< HEAD
+								<option id="gnu.c.compiler.option.include.paths.356566811" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+=======
 								<option id="gnu.c.compiler.option.include.paths.356566811" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1047087435" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1615857476" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1651795224" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+<<<<<<< HEAD
+								<option id="gnu.cpp.link.option.paths.374160264" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+=======
 								<option id="gnu.cpp.link.option.paths.374160264" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 									<listOptionValue builtIn="false" value="/usr/arm-linux-gnueabi/lib"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.245435947" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
@@ -124,6 +167,10 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="testArchitecture.cdt.managedbuild.target.gnu.exe.968038159" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
 	</storageModule>
+<<<<<<< HEAD
+	<storageModule moduleId="refreshScope"/>
+=======
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1298434289;cdt.managedbuild.config.gnu.exe.release.1298434289.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.337994311;cdt.managedbuild.tool.gnu.cpp.compiler.input.1647001318">
@@ -151,5 +198,8 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+<<<<<<< HEAD
+=======
 	<storageModule moduleId="refreshScope"/>
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 </cproject>

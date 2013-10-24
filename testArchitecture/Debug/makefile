@@ -44,7 +44,11 @@ all: testArchitecture
 testArchitecture: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
+<<<<<<< HEAD
+	arm-linux-gnueabi-g++ -L/usr/arm-linux-gnueabi/lib -L/usr/local/lib/lib -o "testArchitecture" $(OBJS) $(USER_OBJS) $(LIBS)
+=======
 	arm-linux-gnueabi-g++ -L/usr/arm-linux-gnueabi/lib -o "testArchitecture" $(OBJS) $(USER_OBJS) $(LIBS)
+>>>>>>> aee562f62db8749c072a066d3d83f6b458f2ce20
 	@echo 'Finished building target: $@'
 	@echo ' '
 
